@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 public class PaypalApplePayTransactionStrategy implements TransactionStrategy{
     @Override
     public boolean processTransaction(TransactionRequest transactionRequest) {
+        // Add your transaction logic here
         System.out.print("Transaction with Paypal - Apple Pay");
         return true;
     }

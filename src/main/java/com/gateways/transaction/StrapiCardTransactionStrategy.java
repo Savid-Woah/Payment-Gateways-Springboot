@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 public class StrapiCardTransactionStrategy implements TransactionStrategy{
     @Override
     public boolean processTransaction(TransactionRequest transactionRequest) {
+        // Add your transaction logic here
         System.out.println("Transaction with Strapi - Card");
         return true;
     }

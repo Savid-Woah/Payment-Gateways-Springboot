@@ -27,11 +27,11 @@ public class PaymentService {
 
         if(transactionWasSuccessful){
 
-            return "Por fin nojoda";
+            return "Payment successful";
         }
         else{
 
-            return "No tienes plata";
+            return "Payment failed";
         }
     }
 }
